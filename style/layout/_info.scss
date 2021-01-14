@@ -1,0 +1,59 @@
+.info {
+  margin-top: 20rem;
+  h2 {
+    font-family: $font-BarlowCondensed;
+    font-weight: $font-400;
+    font-size: $font-size;
+    margin: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    strong {
+      font-weight: $font-700;
+      background-color: $very-dark-blue;
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 2rem;
+      letter-spacing: 0;
+      margin-right: 0.5rem;
+    }
+  }
+  h1 {
+    font-family: $font-BarlowCondensed;
+    font-weight: $font-700;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: $font-Barlow;
+    font-weight: $font-400;
+    font-size: $font-size;
+    margin: 1rem 0;
+  }
+  .container {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: $font-Barlow;
+    button {
+      border: none;
+      background-color: $red;
+      color: white;
+      padding: 0.7rem 1rem;
+      border-radius: 0.4rem;
+      font-family: $font-Barlow;
+      font-weight: $font-700;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
+    }
+    p {
+      padding: 0;
+      font-size: 0.7rem;
+      color: $grayish-blue;
+      letter-spacing: 0.05rem;
+    }
+  }
+}
