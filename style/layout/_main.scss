@@ -1,16 +1,16 @@
 main {
   max-width: 1440px;
-  position: relative;
-  padding: 0 2rem;
+  margin: 0 2rem;
 }
 
-.test {
+.bg {
   width: 20vh;
   height: 50vh;
   background-color: $light-grayish-blue;
   border-bottom-left-radius: 3rem;
   position: absolute;
   right: 0;
+  top: 0;
   z-index: -1;
 }
 
@@ -19,5 +19,30 @@ main {
   position: absolute;
   img {
     max-width: 150%;
+  }
+}
+
+@media (min-width: 376px) {
+  .bg {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg {
+    width: 50vw;
+    height: 50vh;
+  }
+  .image {
+    position: absolute;
+    left: 50%;
   }
 }
