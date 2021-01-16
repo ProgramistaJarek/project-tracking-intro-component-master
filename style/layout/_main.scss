@@ -19,6 +19,7 @@ main {
   position: absolute;
   img {
     max-width: 150%;
+    animation: imageAnimation 1s forwards 0s ease-out;
   }
 }
 
@@ -44,5 +45,16 @@ main {
   .image {
     position: absolute;
     left: 50%;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }

@@ -1,5 +1,6 @@
 .info {
   padding-top: 75vw;
+  animation: textAnimation 1s forwards 0s ease-out;
   h2 {
     font-family: $font-BarlowCondensed;
     font-weight: $font-400;
@@ -101,5 +102,16 @@
         margin-right: 1rem;
       }
     }
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
